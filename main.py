@@ -1,5 +1,5 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters, ConversationHandler
+from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters, ConversationHandler, filters
 import os
 
 # Состояния для диалогов
@@ -267,4 +267,5 @@ def main():
         print("🤖 Бот запущен локально через Polling!")
 
 if __name__ == "__main__":
+
     main()
